@@ -7,8 +7,8 @@ ccid: odubela
 Name: Eshaan Kalra
 ccid: ekalra
 
-Name:
-ccid:
+Name: Jed Krause
+ccid: jkrause2
 
 Name:
 ccid:
