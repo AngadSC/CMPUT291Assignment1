@@ -4,4 +4,15 @@ Comments from cmchan
 
 ER diagram of odubela
 Comments from jkrause2
-The main thing I want to comment on is that you use a double rectangle and diamond in the diagram, but the assignment said we should strictly follow the notation used in the lecture notes, and I saw no double lines there. Instead, things like weak entities are represented with bold lines. I also saw that you put job title as an attribute of the works relationship, so moviperson works job titles. Personally though, I think it would make more sense if job was its own entity, since it represents a real world concept which itself could be many things, like a technician or janitor for example. <will add some more comments after my current lecture later today>
+-I noticed that you use a double rectangle and diamond in the diagram, but the assignment said we 
+should strictly follow the notation used in the lecture notes, and I saw no double lines there. 
+Instead, things like weak entities are represented with bold lines.
+-You didn't split moviepersons into cast and crew members, so it is not as clear which specific
+moviepersons relate to what. I think it would be good if there was something like an ISA triangle 
+which shows that cast and crew are both a type of movieperson like the assignment description specified.
+-I saw that you put job title as an attribute of the works relationship, so moviperson works job titles. 
+Personally though, I think it would make more sense if job was its own entity, since it represents a real 
+world concept which itself could be many things, like a technician or janitor for example.
+-I think the way you used key constraints is overally pretty good. It is clear from the diagram that you can uniquely identify
+the genres associated with a movie, the movieperson someone follows, the genre preference someone has, etc, which all make
+sense.
