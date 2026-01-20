@@ -1,5 +1,6 @@
-ER diagram of <ccid>
-Comments from <ccid>
+ER diagram of bosco
+Comments from cmchan
+
 
 ER diagram of odubela
 Comments from jkrause2
