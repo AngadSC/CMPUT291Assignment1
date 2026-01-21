@@ -1,5 +1,20 @@
 ER diagram of bosco
 Comments from cmchan
+-Firstly, I'm pretty sure that arrows depicting one-to-one/one-to-many constraints should point towards entities rather than relationships
+-In regards to your Movie Person to Movie relationships, you didn't use a ISA split to divide movie people into cast and crew. The lack of this component allows all movie people regardless of whether they are cast or crew to access BOTH the "works in" and "acts in" relationship
+-The "works in" relationship shouldn't be one-to-one since the assignment states that crew members can work multiple jobs and doesn't state any restrictions between crew members working MULTIPLE movies
+-Similar to above, the "acts in" shouldn't be one-to-one since the only restriction is that cast members can only play at most one role PER MOVIE, there is no restriction on cast playing a role in multiple movies.
+-"Customer" follows "Movie Person" shouldn't be one-to-one for the same reason as above. There's no restriction on how many movie people customers can follow.
+-"Customer" prefers "Genre" shouldn't be one-to-one since multiple customers can prefer the same one genre
+-I don't think there's an "id" attribute explicitly mentioned in the assignment
+-"Customer" has "Session" shouldn't be one-to-one since the assignment explicitly says that customers can have multiple sessions
+-I think "Session" should be a weak entity given "has session" is a weak relation.
+-The double rectangle and double diamond is not notation which was mentioned in the notes
+-"Customer" reviews "Movie" also shouldn't be one-to-one since it's not stated in the assignment that each movie can only be reviewed by a single customer
+-You have three instances of entity1-relationship-attribute which I believe is also incorrect notation
+-I don't believe you can tie the same attribute to both an entity and relation
+-The "has" relation between movie and genre shouldn't be weak
+-Overall most of the attributes look pretty good but make sure you understand when to have relationship constraints and weak entities/relations
 
 
 ER diagram of odubela
