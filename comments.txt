@@ -16,3 +16,14 @@ world concept which itself could be many things, like a technician or janitor fo
 -I think the way you used key constraints is overally pretty good. It is clear from the diagram that you can uniquely identify
 the genres associated with a movie, the movieperson someone follows, the genre preference someone has, etc, which all make
 sense.
+
+
+ER diagram of ekalra
+Comments by achahil
+- An ISA was used for cast and for crew but an ISA heiracrhy would mean that the two are seperate from 
+each other, but a crew member can also be part of the cast as well. 
+Instead replace them with a relationships for cast and for crew
+- I think you can connect movie persons directly to movie. 
+- I like that you attached the self-relationship on recommends since it does go both ways. 
+- Used the bolded lines thats good. 
+- The spacing of everything looks good as well and its pretty easy to understand. 
