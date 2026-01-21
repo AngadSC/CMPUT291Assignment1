@@ -42,3 +42,6 @@ Instead replace them with a relationships for cast and for crew
 - I like that you attached the self-relationship on recommends since it does go both ways. 
 - Used the bolded lines thats good. 
 - The spacing of everything looks good as well and its pretty easy to understand. 
+
+ER diagram of jkrause2
+Comments by odubela
