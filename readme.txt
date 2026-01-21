@@ -13,8 +13,8 @@ ccid: jkrause2
 Name: Angad Chahil
 ccid: achahil
 
-Name:
-ccid:
+Name: Bosco To
+ccid: boscoho
 
 Collaborated with:
 We did not collaborate with anyone outside our group
