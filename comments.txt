@@ -1,4 +1,4 @@
-ER diagram of bosco
+ER diagram of boscoho
 Comments from cmchan
 
 -Firstly, I'm pretty sure that arrows depicting one-to-one/one-to-many constraints should point towards entities rather than relationships
