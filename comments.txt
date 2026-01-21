@@ -45,3 +45,16 @@ Instead replace them with a relationships for cast and for crew
 
 ER diagram of jkrause2
 Comments by odubela
+
+
+ER diagram of achahil
+Comments by ekalra
+- In the beginning, having a relationship called "HasGenre" is redundant as the diamond already connects the entity set- "Genre".
+- The assignment description mentions "cast" but it's not included here.
+- Relationships generally include verbs only. For example: Crew as an entity set connected to a relationship called "has", instead of "CrewFor" relationship.
+- An arrow on "Portrays" diamond should be added as per the assignment specification: "A cast member is restricted to at most one role per movie."
+- Lines should usually connect directly to the entity set, attribute or relationship instead of connecting other lines, but at the same time it's helpful so that should be okay!
+- I could not find any other errors apart from the ones mentioned above. The diagram is extended vertically which makes it very easy to follow.
+- The thick lines and arrow indicating total participation and many to one relationship is quite accurately used. Ex: The entity set - "Session" cannot exist without a customer hence the darkened line and double lined border. Also One customer can have many sessions, which explains the arrow perfectly!
+- The key constraints are also appropriately used- underline and dotted lines.
+- Overall, I appreciate the work you spent on this diagram, apart from a few minor errors, everything else is perfectly followed as per the instructions. Well Done!!
