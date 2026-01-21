@@ -1,5 +1,6 @@
 ER diagram of bosco
 Comments from cmchan
+
 -Firstly, I'm pretty sure that arrows depicting one-to-one/one-to-many constraints should point towards entities rather than relationships
 -In regards to your Movie Person to Movie relationships, you didn't use a ISA split to divide movie people into cast and crew. The lack of this component allows all movie people regardless of whether they are cast or crew to access BOTH the "works in" and "acts in" relationship
 -The "works in" relationship shouldn't be one-to-one since the assignment states that crew members can work multiple jobs and doesn't state any restrictions between crew members working MULTIPLE movies
@@ -19,6 +20,7 @@ Comments from cmchan
 
 ER diagram of odubela
 Comments from jkrause2
+
 -I noticed that you use a double rectangle and diamond in the diagram, but the assignment said we 
 should strictly follow the notation used in the lecture notes, and I saw no double lines there. 
 Instead, things like weak entities are represented with bold lines.
@@ -35,6 +37,7 @@ sense.
 
 ER diagram of ekalra
 Comments by achahil
+
 - An ISA was used for cast and for crew but an ISA heiracrhy would mean that the two are seperate from 
 each other, but a crew member can also be part of the cast as well. 
 Instead replace them with a relationships for cast and for crew
@@ -49,6 +52,7 @@ Comments by odubela
 
 ER diagram of achahil
 Comments by ekalra
+
 - In the beginning, having a relationship called "HasGenre" is redundant as the diamond already connects the entity set- "Genre".
 - The assignment description mentions "cast" but it's not included here.
 - Relationships generally include verbs only. For example: Crew as an entity set connected to a relationship called "has", instead of "CrewFor" relationship.
