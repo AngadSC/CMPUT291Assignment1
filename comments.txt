@@ -69,3 +69,14 @@ Ex: The entity set - "Session" cannot exist without a customer hence the darkene
 Also One customer can have many sessions, which explains the arrow perfectly!
 - The key constraints are also appropriately used- underline and dotted lines.
 - Overall, I appreciate the work you spent on this diagram, apart from a few minor errors, everything else is perfectly followed as per the instructions. Well Done!!
+
+
+ER diagram of cmchan
+Comments by boscoho
+
+-missing genre_name
+-customers can have same names (no underline needed)
+-Job entity is redundant (maybe?) seems like it can be reduced to relationship attribute
+-ternary relationship on acts_in? The problem that we discussed in VC
+
+Other looks clean and complete :D good job
