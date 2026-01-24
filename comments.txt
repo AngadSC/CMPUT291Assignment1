@@ -48,7 +48,12 @@ Instead replace them with a relationships for cast and for crew
 
 ER diagram of jkrause2
 Comments by odubela
-
+-Overall the whole ER diagrma is clear and all the notaion is used properly.
+-I know you said that Job should be an entity rather than an attribute but personally I think that the assignemnt database specifications does not require us to have a job as an enttity,
+so i believe by making it an attribute of works it makes the diagram much more cleaner and easier to read. Although your approach is still a valid design. 
+-I also believe that Reccommends and reccomended movie is redundant since a reccomended movie is just a Movies particapatin in the reccomends relationship.
+-Other than those two things the way you set up your diagram really good and the ISA triangle and all the weak entities are all defined properly. Overall its a good diagram with a good design choice 
+and correct notations.
 
 ER diagram of achahil
 Comments by ekalra
