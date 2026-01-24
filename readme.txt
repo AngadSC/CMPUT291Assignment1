@@ -16,5 +16,7 @@ ccid: achahil
 Name: Bosco To
 ccid: boscoho
 
+Assumption: A movie person cannot be an actor and a director at the same time.
+
 Collaborated with:
 We did not collaborate with anyone outside our group
